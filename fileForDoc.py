@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import pickle
 # %matpllotlib inline
 
-df= pd.read_csv('C:\Adesh\Python\Workshop\LinearRegressionTillCloud-20230303T064801Z-001\LinearRegressionTillCloud\Admission_Prediction.csv') # reading the CSV file
+df= pd.read_csv('Admission_Prediction.csv') # reading the CSV file
 
 df.head() # cheking the first five rows from the dataset
 df.info() # printing the summary of the dataframe
